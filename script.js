@@ -9,7 +9,7 @@ function guess () {
     if (input === rand) {
       text.innerHTML = 'You got it right! Enter a new number and press Guess to try again.'
     } else {
-    text.innerHTML = 'Oops, try again! The number was ' + rand + '. Enter a new number and press Guess to try again.'
+      text.innerHTML = 'Oops, try again! The number was ' + rand + '. Enter a new number and press Guess to try again.'
     } 
   } else {
     text.innerHTML = 'Please enter a valid number between 1 and 6. Enter a new number and press Guess to try again.'
